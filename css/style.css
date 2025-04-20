@@ -1318,7 +1318,7 @@ img {
 
 .cota {
     flex: 1 1 calc(33.33% - 20px); /* 3 por linha em telas grandes */
-    min-width: 140px;
+    min-width: 115px;
 }
 
 @media (max-width: 768px) {
@@ -1357,7 +1357,7 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 0.75rem;
     width: 100%;
-    max-width: 420px;
+    max-width: 450px;
 }
 
 .cota {
@@ -1398,7 +1398,7 @@ img {
     font-size: 0.85rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 445px) {
     .cotas-one {
         grid-template-columns: repeat(2, 1fr);
     }
